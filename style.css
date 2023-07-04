@@ -1,6 +1,8 @@
 :root {
   --bg-color: #d5e1ef;
   --container-color: #fff;
+  --dark-gray: #1f314f;
+  --light-gray: #7d889e;
 }
 
 * {
@@ -43,10 +45,12 @@ section {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 15px;
+  color: var(--dark-gray);
 }
 
 .instruction {
   font-size: 15px;
   font-weight: 400;
   margin-bottom: 15px;
+  color: var(--light-gray);
 }
