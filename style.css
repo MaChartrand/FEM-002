@@ -1,0 +1,52 @@
+:root {
+  --bg-color: #d5e1ef;
+  --container-color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--bg-color);
+  display: flex;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: var(--container-color);
+  border-radius: 15px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.qr-code {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+section {
+  text-align: center;
+}
+
+.description {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.instruction {
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
